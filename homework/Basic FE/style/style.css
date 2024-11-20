@@ -1,0 +1,61 @@
+.lebenslauf{
+    color: red;
+    text-align: center;
+}
+/* vse tegi */
+*{
+    /* stili kotorie otnosyatsya ko vsem tegam */
+    margin: o;
+    padding: 0;
+
+
+}
+.first_size{
+    font-size: 30px;
+    color: red;
+}
+.img1{
+    width: 300px;
+    height: 300px;
+}
+.logo_img{
+    width: 100px;
+}
+.p_with_border{
+    border: 5px solid blue;
+}
+.paragraph1{
+    margin: 20px 50px 80px 110px;
+    border: 1px solid red;
+}
+.table1{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+
+
+.table1 td, .table1 th{
+    border: 1px solid black;
+}
+.table2{
+    border: 5px solid red;
+    border-collapse: collapse;
+}
+.table2 td, .table2 th{
+    border: 1px solid black;
+}
+
+
+
+.table3{
+    border: 1px solid black;
+    border-collapse: collapse;
+}
+
+.table3 td, .table3 th{
+    border: 1px solid black;
+}
+.table3 td{
+    text-align: center;
+}

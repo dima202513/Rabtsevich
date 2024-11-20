@@ -1,0 +1,24 @@
+0 mkdir /root/test3
+   1 ls -h
+   2 touch /root/test3/myfile.txt
+   3 dr -h > /root/test3/myfile.txt
+   4 df -h > /root/test3/myfile.txt
+   5 ls -l /
+   6 ls -l / |head-9
+   7 ls -l / |head -9
+   8 ls -l / |head -9 >> /root/test3/myfile.txt
+   9 cat /etc/group
+  10 tail
+  11 ls -l / |head -9 >> /root/test3/myfile.txt
+  12 cat /etc/group
+  13 cat /etc/group |tail-3
+  14 cat /etc/group |tail -3
+  15 cat /etc/group |tail -3 | wc
+  16 cat /etc/group |tail -3 | wc -m >> /root/
+  17 cat /etc/group |tail -3 | wc -m
+  18 cat /etc/group |tail -3 | wc -m >> /root/
+  19 cat /etc/group |tail -3 | wc -m >> /root/test3/myfile.txt
+  20 ls -h
+  21 history
+localhost:~#
+Upload files 
