@@ -43,37 +43,36 @@ public class Hausaufgabe3 {
 //Преобразуйте строку к верхнему регистру.
 //Преобразуйте строку к нижнему регистру.
 //Вырезать строку Java c помощью метода String.substring().
-        Scanner scanner = new Scanner(System.in);
-        System.out.println("vvesti pervoe chislo: ");
-        float a = scanner.nextFloat();
-        System.out.println("vvesti operacii: +, -, *, /  ");
-        char operation = scanner.next().charAt(0);
-        System.out.println("vvesti vtoroe chislo: ");
-        float b = scanner.nextFloat();
-
-        if (operation == '+') {
-            float result = a + b;
-            System.out.println("summa chisel: " + a + " i " + b + "ravna " + result);
-        } else if (operation == '-') {
-            float result = a - b;
-            System.out.println("raznost chisel: " + a + " i " + b + "ravna " + result);
-        }
-        if (operation == '*') {
-            float result = a * b;
-            System.out.println("proizvedenie chisel: " + a + " i " + b + "ravna " + result);
-        } else if (operation == '/') {
-            float result = a / b;
-            if (b != 0) {
-                System.out.println("chastnoe chislo: " + a + " i " + b + "ravna " + result);
-            } else {
-                System.out.println("oshibka");
-
-            }
-
-        }
-    }
-}
-
+//        Scanner scanner = new Scanner(System.in);
+//        System.out.println("vvesti pervoe chislo: ");
+//        float a = scanner.nextFloat();
+//        System.out.println("vvesti operacii: +, -, *, /  ");
+//        char operation = scanner.next().charAt(0);
+//        System.out.println("vvesti vtoroe chislo: ");
+//        float b = scanner.nextFloat();
+//
+//        if (operation == '+') {
+//            float result = a + b;
+//            System.out.println("summa chisel: " + a + " i " + b + "ravna " + result);
+//        } else if (operation == '-') {
+//            float result = a - b;
+//            System.out.println("raznost chisel: " + a + " i " + b + "ravna " + result);
+//        }
+//        if (operation == '*') {
+//            float result = a * b;
+//            System.out.println("proizvedenie chisel: " + a + " i " + b + "ravna " + result);
+//        } else if (operation == '/') {
+//            float result = a / b;
+//            if (b != 0) {
+//                System.out.println("chastnoe chislo: " + a + " i " + b + "ravna " + result);
+//            } else {
+//                System.out.println("oshibka");
+//
+//            }
+//
+//        }
+//    }
+//}
 
 
 //        № 2
@@ -81,3 +80,5 @@ public class Hausaufgabe3 {
 //Каждый метод принимает два числа в параметрах и возвращает результат
 //Вызовите все методы в main
 //Результат распечатайте в консоль
+    }
+}
